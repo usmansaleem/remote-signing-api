@@ -303,7 +303,7 @@ components:
               type: "string"
               description: Signing Request type
               enum:
-               - 'SYNC_COMMITTEE_SELECTION_PROOF'
+                - 'SYNC_COMMITTEE_SELECTION_PROOF'
             sync_aggregator_selection_data:
               $ref: "#/components/schemas/SyncAggregatorSelectionData"
           required:
@@ -318,7 +318,7 @@ components:
               type: "string"
               description: Signing Request type
               enum:
-               - 'SYNC_COMMITTEE_CONTRIBUTION_AND_PROOF'
+                - 'SYNC_COMMITTEE_CONTRIBUTION_AND_PROOF'
             contribution_and_proof:
               $ref: "#/components/schemas/ContributionAndProof"
           required:
